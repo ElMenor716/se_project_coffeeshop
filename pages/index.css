@@ -149,3 +149,8 @@
   font-size: 20px;
   line-height: 30px;
 }
+
+.reservation {
+  background-color: #D9E7FF;
+  background: center / cover no-repeat url("../images/background_reservation.svg");
+}
