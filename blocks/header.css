@@ -1,9 +1,12 @@
 .header {
+  position: relative;
   padding: 30px 80px 40px;
+  box-sizing: border-box;
   background: center / cover no-repeat #fff url(../images/background_header.svg);
   height: 800px;
   display: flex;
   flex-direction: column;
+  z-index: 1;
 }
 
 .header__image {
@@ -12,6 +15,7 @@
   position: absolute;
   right: 5px;
   top: 124px;
+  z-index: -1;
 }
 
 .header__title {
@@ -23,6 +27,7 @@
   font-size: 60px;
   line-height: 72px;
   letter-spacing: -0.6px;
+  z-index: 1;
 }
 
 .header__span-accent {
